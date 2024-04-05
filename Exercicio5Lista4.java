@@ -11,7 +11,9 @@ public class Exercicio5Lista4 {
         Scanner sc = new Scanner(System.in);
         Random inputR = new Random();
 
-        int palpite, numeroCerto, tentativas;
+        int palpite;
+        int numeroCerto;
+        int tentativas;
 
         numeroCerto = inputR.nextInt(100) + 1;
         tentativas = 1;
